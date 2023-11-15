@@ -29,7 +29,7 @@ public class AimAssist extends Module {
     private EntityPlayer currentEntity;
     
 	public AimAssist() {
-		super("Aim Assist", Keyboard.KEY_NONE, Category.COMBAT);
+		super("Aim Assist", Keyboard.KEY_h, Category.COMBAT);
 		this.addValue(this.speed = new NumberValue("Speed", 3.0, 1.0, 10.0));
 		this.addValue(this.distance = new NumberValue("Distance", 4.2, 3.0, 6.0));
 		this.addValue(this.fov = new NumberValue("FOV", 32.0, 1.0, 360.0));
